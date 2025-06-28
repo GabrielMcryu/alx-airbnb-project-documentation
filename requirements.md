@@ -42,7 +42,8 @@ Enables user registration and login using email and password. Supports role-base
 ### 📤 Output (Login Success)
 ```json
 {
-  "token": "jwt_token_string",
+  "acess_token": "jwt_token_string",
+  "refresh_token": "jwt_token_string",
   "user": {
     "user_id": "uuid",
     "email": "alice@example.com",
